@@ -3,7 +3,7 @@ import json
 
 default_vcap_services = json.dumps(
     {
-        "p-config-server": [
+        "p.config-server": [
             {
                 "credentials": {
                     "uri": "",
