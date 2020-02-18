@@ -6,7 +6,7 @@ from config.spring import ConfigClient
 
 class CF3:
 
-    service_name, app_name = None
+    service_name, app_name = None, None
 
     def __init__(self, service_name, app_name):
         self.service_name = service_name
