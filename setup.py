@@ -7,9 +7,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="config-client3-pcf",
-    version="0.0.1",
-    author="alexandre menezes/jeff m",
+    name="config-client3",
+    version="1.0.0",
+    author="Jeff M",
     author_email="quicksh0t12@gmail.com",
     description="config service client for pcf config-server3",
     long_description=long_description,
