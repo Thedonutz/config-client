@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="config-client-pcf",
-    version="0.5.0",
+    version="0.5.1",
     author="alexandre menezes/jeff m",
     author_email="quicksh0t12@gmail.com",
     description="config service client for pcf config-server3",
