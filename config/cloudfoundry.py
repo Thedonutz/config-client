@@ -3,7 +3,7 @@ import json
 
 default_vcap_services = json.dumps(
     {
-        "p.config-server": [
+        "p-config-server": [
             {
                 "credentials": {
                     "uri": "",
@@ -11,6 +11,18 @@ default_vcap_services = json.dumps(
                     "client_id": "",
                     "client_secret": "",
                 }
+            }
+        ]
+    }
+)
+default_vcap_services3 = json.dumps(
+    {
+        "p.config-server": [
+            {
+                "credentials": {
+                    "credhub-ref": ""
+                },
+                "tags": []
             }
         ]
     }
